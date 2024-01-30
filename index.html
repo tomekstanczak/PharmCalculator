@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form class="form-box">
+      <div class="date-input-box">
+        <label>
+          Podaj datę wystawienia recepty
+          <input type="date" class="date-input" />
+        </label>
+        <label>
+          Podaj datę pierwszej realizacji
+          <input type="date" class="date-dispense-input" />
+        </label>
+      </div>
+      <div class="numbers-inputs-box">
+        <label>
+          Podaj częstotliwość stosowania
+          <input type="number" class="frequency"
+        /></label>
+        <label>
+          Podaj ilość stosowania (ile dawek, tabletek)
+          <input type="number" class="quantity"
+        /></label>
+        <label>
+          Podaj przepisaną ilość leku (w pojedyńczych dawkach)
+          <input type="number" class="doses"
+        /></label>
+
+        <label>
+          Podaj ilość wydanego leku (w pojedyńczych dawkach)
+          <input type="number" class="dispensed-doses"
+        /></label>
+      </div>
+      <button type="submit">Policz</button>
+    </form>
+
+    <div class="response-box">
+      <p class="days"></p>
+      <p class="days-treatment"></p>
+      <p class="doses-amount-left"></p>
+      <p class="next-dispensing"></p>
+    </div>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>

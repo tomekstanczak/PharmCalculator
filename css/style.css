@@ -1,0 +1,27 @@
+body {
+  font-size: 24px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.date-input-box,
+.numbers-inputs-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 1px 2px 2px 1px gray;
+  padding: 10px 40px 10px 40px;
+}
+button {
+  padding: 10px 25px 10px 25px;
+  box-shadow: 2px 5px 5px 2px gray;
+}
+.response-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
